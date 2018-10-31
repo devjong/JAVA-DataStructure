@@ -5,7 +5,7 @@ public class Code02 {
 		
 		int number = 123;
 		// System.in은 표준 입력을 의미 즉 키보드를 입력한다. 
-		// 키보드에서 타입핑하느 것을 입력받을 수 있음 준비상태
+		// 키보드에서 타입핑하느 것을 입력받을 수 있음 준비상태 즉, 초기화
 		Scanner kb = new Scanner(System.in); // 
 		
 		System.out.print("Please enter an integer: ");
