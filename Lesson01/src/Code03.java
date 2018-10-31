@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class Code03 {
 	public static void main(String[] args) {
 		String str = "Hello, world";
-		String input = null;
+		String input = null; // 문자열
 		
 		Scanner keyboard = new Scanner(System.in); // System.in 키보드 입력을 의미합
 		System.out.println("Please type a String: ");
-		input = keyboard.nextLine();
+		input = keyboard.nextLine(); // scanf("%s", ...)
 		
 		//두개의 문자열이 동일한지 판단하려면 equals()로 검사함
 		if(str.equals(input)) {  // input.equals(str)

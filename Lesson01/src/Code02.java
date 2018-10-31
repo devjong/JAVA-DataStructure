@@ -4,13 +4,14 @@ public class Code02 {
 	public static void main(String[] args) {
 		
 		int number = 123;
-		//System.inì€ í‘œì¤€ ì…ë ¥ì„ ì˜ë¯¸ ì¦‰ í‚¤ë³´ë“œë¥¼ ì…ë ¥í•œë‹¤. 
-		// í‚¤ë³´ë“œì—ì„œ íƒ€ì…í•‘í•˜ëŠ ê²ƒì„ ì…ë ¥ë°›ì„ ìˆ˜ ìˆìŒ ì¤€ë¹„ìƒíƒœ
-		Scanner kb = new Scanner(System.in); // kbë¼ëŠ” ì´ë¦„ì˜ ìŠ¤ìºë„ˆë¥¼ ë§Œë“¤ì—ˆë‹¤.
+		// System.inÀº Ç¥ÁØ ÀÔ·ÂÀ» ÀÇ¹Ì Áï Å°º¸µå¸¦ ÀÔ·ÂÇÑ´Ù. 
+		// Å°º¸µå¿¡¼­ Å¸ÀÔÇÎÇÏ´À °ÍÀ» ÀÔ·Â¹ŞÀ» ¼ö ÀÖÀ½ ÁØºñ»óÅÂ
+		Scanner kb = new Scanner(System.in); // 
 		
 		System.out.print("Please enter an integer: ");
 		
-		int input = kb.nextInt(); // í‚¤ë³´ë“œë¡œ ë¶€í„° ì •ìˆ˜ í•˜ë‚˜ë¥¼ ì…ë ¥.(í‚¤ë³´ë“œì—ì„œ ê°’ì„ ì½ì–´ë“¤ì¸ë‹¤.)
+		// Å°º¸µå·Î ºÎÅÍ Á¤¼ö ÇÏ³ª¸¦ ÀÔ·Â.(Å°º¸µå¿¡¼­ °ªÀ» ÀĞ¾îµéÀÎ´Ù.)
+		int input = kb.nextInt();  // == scanf("%d", &input);
 		
 		if(input == number) {
 			System.out.println("Numbers match! :-)");
@@ -18,7 +19,7 @@ public class Code02 {
 			System.out.println("Numbers do not match! :-(");
 		}
 		
-		kb.close(); //ìŠ¤ìºë„ˆê°€ í•„ìš”ì—†ì–´ì§€ëŠ” ì‹œì ì— ìŠ¤ìºë„ˆë¥¼ ë‹«ì•„ì¤˜ì•¼ í•œë‹¤.
+		kb.close(); //½ºÄ³³Ê°¡ ÇÊ¿ä¾ø¾îÁö´Â ½ÃÁ¡¿¡ ½ºÄ³³Ê¸¦ ´İ¾ÆÁà¾ß ÇÑ´Ù.
 	}
 
 }
